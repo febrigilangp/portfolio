@@ -1,7 +1,7 @@
 import React from 'react'
 import Portfolio from './Portfolio'
 import '../../style.css';
-import {porto} from '../../data'
+import one from '../../img/portfolio/1.png'
 
 const Portfoliolist = () => {
     return (
@@ -10,9 +10,7 @@ const Portfoliolist = () => {
           <h1 className="portfoliolist-title">PORTFOLIO</h1>
         </div>
         <div className="portfoliolist-list">
-          {porto.map((item) => (
-            <Portfolio key={item.id} img={item.img} link={item.link} />
-          ))}
+         <Portfolio/>
         </div>
       </div>
     )

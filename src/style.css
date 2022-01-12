@@ -229,8 +229,7 @@
 /* --------------------------------------------------------------------------------------- */
 
 .portfolio-area {
-  width: 30%;
-  height: 40vh;
+  height: 30vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
@@ -238,7 +237,7 @@
 }
 
 .portfolio-browser {
-  height: 10px;
+  height: 20px;
   background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
@@ -259,9 +258,6 @@
   transition: all 10s ease;
 }
 
-.portfolio:hover .portfolio-img {
-  transform: translateY(-100%);
-}
 
 @media screen and (max-width: 480px) {
   .portfolio {
@@ -270,6 +266,10 @@
   }
 }
 
+
+.portfolio{
+  display: inline-block;
+}
 
 .portfoliolist-area {
   background-color: #777777;
@@ -330,7 +330,7 @@
 /* ---------------------------------------------------------------------------------------- */
 
 .contact-area {
-  height: 100vh;
+  height: 75vh;
   position: relative;
   color: #777777;
 }

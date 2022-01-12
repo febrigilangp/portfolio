@@ -1,7 +1,10 @@
+
 export const porto = [
+
+  
     {
       id: 1,
-      img: "/Asset/img/portfolio/1.png",
+      img: "/img/portfolio/1.png",
       alt:"web anime",
       // link: "/",
     },

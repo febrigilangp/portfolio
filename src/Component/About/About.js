@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../style.css'
+import about from '../../img/aboutme.jpg';
 
 function About() {
     return (
@@ -8,7 +9,7 @@ function About() {
         <div className="about-card bg"></div>
         <div className="about-card">
           <img
-            src="/Asset/img/aboutme.jpg"
+            src={about}
             alt=""
             className="about-img"
           />

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../style.css'
+import sit from '../../img/sit.png';
  
 
 function Intro() {
@@ -15,7 +16,7 @@ function Intro() {
 </div>
 <div className="intro-right">
   <div className="intro-bg"></div>
-  <img src='/Asset/img/sit.png' alt="computer" className="intro-img" />
+  <img src={sit} alt="computer" className="intro-img" />
 </div>
 </div>
 
